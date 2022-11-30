@@ -1,5 +1,7 @@
 body{
-    background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+    background-image: url("../images/bgi.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .item-color{
     box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
@@ -46,6 +48,7 @@ body{
 }
 .item-user {
     position: relative;
+    background-color: rgba(255, 255, 255, 0.788);
 }
 .user-text {
     color:#04baf1;
@@ -180,6 +183,7 @@ body{
 /* POST  */
 .item-post {
     position: relative;
+    background-color: rgba(255, 255, 255, 0.795);
 }
 .post-id {
     position: absolute;
@@ -200,6 +204,7 @@ body{
 /* COMMIT  */
 .item-commit {
     position: relative;
+    background-color: rgba(255, 255, 255, 0.781);
 }
 .commit-id {
     position: absolute;
