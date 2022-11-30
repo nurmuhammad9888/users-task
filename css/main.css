@@ -1,0 +1,218 @@
+body{
+    background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+}
+.item-color{
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+.btn-color{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    color:#046bf1;
+}
+.list-user{
+    height: 91vh;
+    overflow-y: scroll;
+}
+.list-post{
+    height: 91vh;
+    overflow-y: scroll;
+}
+.commit-list{
+    height: 91vh;
+    overflow-y: scroll;
+}
+.list-user::-webkit-scrollbar-track,
+.list-post::-webkit-scrollbar-track,
+.commit-list::-webkit-scrollbar-track
+{
+    background-color: #04bac0;
+}
+
+.list-user::-webkit-scrollbar,
+.list-post::-webkit-scrollbar,
+.commit-list::-webkit-scrollbar{
+    width: 10px;
+}
+
+.list-user::-webkit-scrollbar-thumb,
+.list-post::-webkit-scrollbar-thumb,
+.commit-list::-webkit-scrollbar-thumb{
+    background-color: rgb(14, 224, 224);
+    background-image: -webkit-linear-gradient(90deg,
+    rgb(15, 167, 238) 0%,
+    rgba(11, 55, 80, 0.877) 25%,
+    transparent 100%,
+    rgb(5, 54, 75) 75%,
+    transparent)
+}
+.item-user {
+    position: relative;
+}
+.user-text {
+    color:#04baf1;
+}
+.user-title {
+    font-size: 25px;
+    margin-bottom: 15px;
+    color:#1b4d64;
+}
+.user-id {
+    position: absolute;
+    top: -20px;
+    right: 10px;
+    font-size: 95px;
+    font-weight: bold;
+    color:#0f6a86d3;
+}
+.user-email {
+    display: flex;
+    align-items: center;
+    color:#01b1e7;
+    padding: 10px;
+    border-radius: 3px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+.user-email::before {
+    width: 18px;
+    height: 18px;
+    margin-right: 9px;
+    content: '';
+    display: inline-block;
+    background-image: url("../images/email.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.user-adress {
+    margin-top: 15px;
+    font-size: 22px;
+    font-weight: bold;
+    color:#5DC1BC;
+}
+.user-maps {
+    padding: 10px;
+    align-items: center;
+    display: flex;
+    border-radius: 3px;
+    box-shadow: #091e4240 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+    color:#01b1e7;
+}
+.user-phone {
+    padding: 10px;
+    align-items: center;
+    display: flex;
+    border-radius: 3px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+    color:#01b1e7;
+}
+.user-site {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 3px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+    color:#01b1e7;
+}
+.user-maps::before {
+    width: 20px;
+    height: 20px;
+    margin-right: 9px;
+    content: '';
+    display: inline-block;
+    background-image: url("../images/location.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.user-phone::before {
+    width: 20px;
+    height: 20px;
+    margin-right: 9px;
+    content: '';
+    display: inline-block;
+    background-image: url("../images/circle-phone-flip.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.user-site::before {
+    width: 20px;
+    height: 20px;
+    margin-right: 9px;
+    content: '';
+    display: inline-block;
+    background-image: url("../images/website.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.user-com-title{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    color:#5DC1BC;
+}
+.user-com-title::before{
+    width: 35px;
+    height: 35px;
+    margin-right: 9px;
+    content: '';
+    display: inline-block;
+    background-image: url("../images/company.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.user-compny-title {
+    color:#059dcc;
+    
+}
+.user-compny-text {
+    margin-bottom: 0;
+    color:#0f6b86;
+}
+.user-compane-time {
+    color:#0f6b86;
+}
+
+
+/* POST  */
+.item-post {
+    position: relative;
+}
+.post-id {
+    position: absolute;
+    top: -10px;
+    right: 10px;
+    font-size: 55px;
+    font-weight: bold;
+    color:#0f6a86d0;
+}
+.post-title {
+    margin-right: 65px;
+    color:#0aa6d6c2;
+}
+.post-text {
+    color:#0f6b86;
+}
+
+/* COMMIT  */
+.item-commit {
+    position: relative;
+}
+.commit-id {
+    position: absolute;
+    top: -10px;
+    right: 10px;
+    font-size: 45px;
+    font-weight: bold;
+    color:#0f6a86b7;
+}
+.commit-title {
+    margin-right: 70px;
+    color:#05acdff1;
+}
+.commit-text {
+    color:#0f6b86;
+}
